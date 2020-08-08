@@ -1,0 +1,19 @@
+{
+  "ecmaVersion": "6",
+  "libs": [
+    "underscore",
+    "browser"
+  ],
+  "loadEagerly": [],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {
+    "commonjs": {},
+    "requirejs": {
+      "baseURL": "",
+      "paths": "",
+      "override": ""
+    }
+  }
+}
